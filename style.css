@@ -1,0 +1,21 @@
+/* Primary colors:
+Navy blue #00274c
+Maize #ffcb0b
+
+Secondary colors:
+Dark teal #0B4C5F
+Medium gray #585858
+*/
+body {
+  background-color: #0b4c5f;
+  color: white;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #00274c;
+}
+
+footer {
+  background-color: #00274c;
+}
