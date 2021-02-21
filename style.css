@@ -19,7 +19,18 @@ header {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
   background-color: #002533;
+  display: table;
+}
+
+footer > p{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px;
 }
 
 body,html{
@@ -28,12 +39,12 @@ body,html{
 }
 
 h1{
-  position: absolute;
   padding: 3px;
   margin-left: 2%;
   margin-top: 10px;
   font-family: Verdana, Helvetica, sans-serif;
   color: #ffffff;
+  text-align: center;
 }
 p{
   margin-left: 10px;
