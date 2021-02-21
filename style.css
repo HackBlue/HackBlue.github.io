@@ -7,15 +7,58 @@ Dark teal #0B4C5F
 Medium gray #585858
 */
 body {
-  background-color: #0b4c5f;
+  background-color: #5c6b70;
   color: white;
   font-family: Verdana, Helvetica, sans-serif;
 }
 
 header {
-  background-color: #00274c;
+  width: 100%;
+  height: 70px;
+  background-color: #002533;
 }
 
 footer {
-  background-color: #00274c;
+  background-color: #002533;
+}
+
+body,html{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  position: absolute;
+  padding: 3px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 10px;
+  font-family: Verdana, Helvetica, sans-serif;
+  color: #5c6b70;
+}
+p{
+  margin-left: 10px;
+}
+ul{
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+
+li{
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+a{
+  text-align: center;
+  color: #5c6b70;
+  text-decoration: none;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 1.2vw;
+}
+
+a:hover{
+  color: #ffffff;
+  transition: 0.5s;
 }
