@@ -30,11 +30,10 @@ body,html{
 h1{
   position: absolute;
   padding: 3px;
-  float: left;
   margin-left: 2%;
   margin-top: 10px;
   font-family: Verdana, Helvetica, sans-serif;
-  color: #5c6b70;
+  color: #ffffff;
 }
 p{
   margin-left: 10px;
