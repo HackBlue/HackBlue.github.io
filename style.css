@@ -7,8 +7,7 @@ Dark teal #0B4C5F
 Medium gray #585858
 */
 body {
-  background-color: #5c6b70;
-  color: white;
+  background-color: #73878c;
   font-family: Verdana, Helvetica, sans-serif;
 }
 
@@ -31,6 +30,7 @@ footer > p{
   display: table-cell;
   vertical-align: middle;
   padding: 20px;
+  color: #73878c
 }
 
 body,html{
@@ -62,7 +62,7 @@ li{
 
 a{
   text-align: center;
-  color: #5c6b70;
+  color: #73878c;
   text-decoration: none;
   font-family: Verdana, Helvetica, sans-serif;
   font-size: 1.2vw;
