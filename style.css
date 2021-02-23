@@ -39,8 +39,6 @@ body,html{
 }
 
 h1{
-  padding: 3px;
-  margin-left: 2%;
   margin-top: 10px;
   font-family: Verdana, Helvetica, sans-serif;
   color: #ffffff;
@@ -71,4 +69,10 @@ a{
 a:hover{
   color: #ffffff;
   transition: 0.5s;
+}
+
+.center{
+  display: block;
+  margin: auto;
+  width: 50%;
 }
