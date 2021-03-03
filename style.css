@@ -79,3 +79,14 @@ a:hover{
   margin: auto;
   width: 50%;
 }
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
