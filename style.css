@@ -82,7 +82,18 @@ a:hover{
 
 .column {
   float: left;
+}
+
+.column.two {
   width: 50%;
+}
+
+.column.three {
+  width: 33.33%;
+}
+
+.column.four {
+  width: 25%;
 }
 
 .row:after {
