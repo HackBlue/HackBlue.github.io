@@ -43,6 +43,9 @@ h1{
   font-family: Verdana, Helvetica, sans-serif;
   color: #ffffff;
   text-align: center;
+  width: 600px;
+  margin: auto;
+  padding: 25px;
 }
 p{
   margin-left: 10px;
