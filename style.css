@@ -101,3 +101,12 @@ a:hover{
   display: table;
   clear: both;
 }
+div {
+    background: rgba(180, 180, 180, 0.7);
+    width: 950px;
+    height: 1000px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
