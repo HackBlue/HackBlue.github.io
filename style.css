@@ -17,6 +17,14 @@ header {
   background-color: #002533;
 }
 
+header > img {
+  float: left;
+  height: 200px;
+  width: 200px;
+  overflow: auto;
+  display: inline;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -109,4 +117,9 @@ a:hover{
     text-align: center;
     color: white;
     margin: 0 auto;
+}
+
+.social {
+  float: right;
+  display: inline-block;
 }
