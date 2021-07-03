@@ -9,6 +9,7 @@ Medium gray #585858
 body {
   background-color: #73878c;
   font-family: Verdana, Helvetica, sans-serif;
+  padding-bottom: 50px;
 }
 
 header {
@@ -44,6 +45,7 @@ footer > p{
 body,html{
   margin: 0;
   padding: 0;
+  padding-bottom: 30px;
 }
 
 h1{
@@ -55,6 +57,12 @@ h1{
   margin: auto;
   padding: 25px;
 }
+
+h2{
+  color: #ffffff;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
 p{
   margin-left: 10px;
 }
@@ -80,6 +88,11 @@ a{
 a:hover{
   color: #ffffff;
   transition: 0.5s;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
 }
 
 .center{
