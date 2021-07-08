@@ -114,6 +114,11 @@ table, th, td {
   width: 33.33%;
 }
 
+.column.three > p {
+  text-align: center;
+  margin: 0;
+}
+
 .column.four {
   width: 25%;
 }
