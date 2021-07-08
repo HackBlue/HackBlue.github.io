@@ -55,7 +55,7 @@ h1{
   text-align: center;
   width: 600px;
   margin: auto;
-  padding: 25px;
+  padding: 15px;
 }
 
 h2{
@@ -68,13 +68,14 @@ p{
 }
 ul{
   width: auto;
-  float: right;
-  margin-top: 8px;
+  margin: 0 auto;
+  text-align: right;
 }
 
 li{
   display: inline-block;
-  padding: 15px 30px;
+  text-align: center;
+  padding: 24.25px 30px;
 }
 
 a{
@@ -133,6 +134,5 @@ table, th, td {
 }
 
 .social {
-  float: right;
-  display: inline-block;
+  padding: 15px 30px;
 }
