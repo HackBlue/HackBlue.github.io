@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -100,3 +101,107 @@ for (i = 0; i < coll.length; i++) {
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FAQ | HackBlue</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <style>
+      .collapsible {
+        background-color: #002533;
+        color: #ffcb0b;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+
+      .collapsible:hover {
+        background-color: #013a4e;
+        color: #ffcb0b;
+      }
+
+      .collapsible:after {
+        content: '\002B';
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+      }
+
+      .active:after {
+        content: "\2212";
+      }
+
+      .content {
+        color: black;
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #73878c;
+      }
+      </style>
+  </head>
+<body>
+  <header>
+      <nav style="height:70px">
+        <a href="index.html"><img src="hb-logo-white.png" alt="HackBlue Logo" style="width:auto; height:70px; position:absolute;"></a>
+        <ul style="height:70px;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="what-we-do.html">What We Do</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="sponsorships.html">Sponsorships</a></li>
+          <li><a  style="color:white;" href="faq.html">FAQ</a></li>
+          <li><a href="calendar.html">Calendar</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+<h1>FAQ</h1>
+
+<button class="collapsible">How can I join HackBlue?</button>
+<div class="content">
+  <p>New prospective members can join by attending one of our mass meetings, held at the beginning of each semester.
+    Information about mass meeting dates/times can be found on the HackBlue website once they are scheduled. We can also be
+    found at Festifall and Winterfest, or reached through our <a style="color:white;" href="contact.html">Contact</a> page.</p>
+</div>
+<button class="collapsible">What are the HackBlue membership requirements?</button>
+<div class="content">
+  <p>In order to maintain membership with HackBlue, one must be an active member of at least one committee, as well as attend our biweekly meetings. There is no membership fee.</p>
+</div>
+<button class="collapsible">Do I need computer science experience to join HackBlue?</button>
+<div class="content">
+  <p>No computer science experience is required to be a HackBlue member!</p>
+</div>
+
+<footer>
+  <p style="text-align: center">Copyright ©2021 HackBlue. All Rights Reserved | Created by <a style="font-size: 16px;" href="team.html#team">Web Development Committee</a></p>
+</footer>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
+>>>>>>> ed5b8223387e54e172dd20c915e416a60f7b683e
