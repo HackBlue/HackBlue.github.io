@@ -143,3 +143,14 @@ table, th, td {
 }
 
 
+.text-content {
+  color: white;
+}
+
+.header-content {
+  color: #ffcb0b;
+}
+
+.alternate-header {
+  color: #002533;
+}
