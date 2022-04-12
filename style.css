@@ -8,7 +8,7 @@ Medium gray #585858
 */
 body {
   background-color: #73878c;
-  font-family: Verdana, Helvetica, sans-serif;
+  font-family: 'Karla', sans-serif;
   padding-bottom: 50px;
 }
 
@@ -50,7 +50,6 @@ body,html{
 
 h1{
   margin-top: 10px;
-  font-family: Verdana, Helvetica, sans-serif;
   color: #ffffff;
   text-align: center;
   width: 600px;
@@ -60,7 +59,6 @@ h1{
 
 h2{
   color: #ffffff;
-  font-family: Verdana, Helvetica, sans-serif;
 }
 
 p{
@@ -82,7 +80,6 @@ a{
   text-align: center;
   color: #73878c;
   text-decoration: none;
-  font-family: Verdana, Helvetica, sans-serif;
   font-size: 1.2vw;
 }
 
@@ -140,4 +137,17 @@ table, th, td {
 
 .social {
   padding: 15px 30px;
+}
+
+
+.text-content {
+  color: white;
+}
+
+.header-content {
+  color: #ffcb0b;
+}
+
+.alternate-header {
+  color: #002533;
 }
