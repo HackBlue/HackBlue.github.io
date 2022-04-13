@@ -104,7 +104,8 @@ table, th, td {
 }
 
 .column.two {
-  width: 50%;
+  width: 48%;
+  margin: 1%;
 }
 
 .column.three {
@@ -127,12 +128,13 @@ table, th, td {
 }
 .see-through-box {
     background: rgba(180, 180, 180, 0.7);
-    width: 950px;
-    height: 1000px;
+    width: 800px;
+    height: auto;
     border-radius: 30px;
     text-align: center;
     color: white;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .social {
@@ -145,9 +147,21 @@ table, th, td {
 }
 
 .header-content {
-  color: #ffcb0b;
+  color: rgb(253, 237, 14);
 }
 
 .alternate-header {
   color: #002533;
+}
+
+.see-through-box-2 {
+  background: rgba(180, 180, 180, 0.7);
+  border-radius: 30px;
+  color: white;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+}
+
+.index-blurb {
+  color: rgb(253, 237, 14);
 }
